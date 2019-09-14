@@ -10,7 +10,7 @@ class Status {
   var MaxMp= 10
   var Mp = MaxMp
   var Dead: Boolean = false
-  def takeDamage(dmg:Int): Unit ={
+  def takeDamage(dmg:Int): Unit = {
     Hp = Hp - dmg
     if(Hp <= 0){
       this.Dead == true
