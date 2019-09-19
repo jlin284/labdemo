@@ -10,7 +10,7 @@ class TestingDamage extends FunSuite {
     obj1.takeDamage(1)
   assert(obj1.Hp == 9)
     obj2.takeDamage(10)
-  assert(obj2.Dead == false)
+  assert(obj2.Dead == true)
     obj3.takeDamage(11)
-    assert(obj2.Dead == false)
+    assert(obj2.Dead == true)
 }}
