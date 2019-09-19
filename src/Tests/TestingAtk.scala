@@ -3,7 +3,7 @@ import org.scalatest._
 import Character.Status
 class TestingAtk extends FunSuite {
   test("Tests atk damage")
-    {
+    {//testx
       val obj1: Status = new Status
       val obj2: Status = new Status
       obj1.PhyAtk(obj2)
