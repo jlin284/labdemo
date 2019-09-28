@@ -6,7 +6,7 @@ class TestingAtk extends FunSuite {
     {//testx
       val obj1: Status = new Status
       val obj2: Status = new Status
-      obj1.PhyAtk(obj2)
+      obj1.PhyAtk(obj2,obj1)
       assert(obj2.Hp == 9)
       obj1.MgAtk(obj2)
       assert(obj2.Hp == 9)
