@@ -1,15 +1,15 @@
 package Character
 
-import java.io.ObjectInputFilter.Status
+//import java.io.ObjectInputFilter.Status
 
 class Status {
-  var Atk = 3
-  var Def = 2
-  var MgAtk = 3
-  var MgDef = 2
-  var MaxHp = 10
+  var Atk = 31
+  var Def = 21
+  var MgAtk = 10
+  var MgDef = 25
+  var MaxHp = 100
   var Hp = MaxHp
-  var MaxMp= 10
+  var MaxMp= 100
   var Mp = MaxMp
   var Dead: Boolean = false
   var exp: Int = 0
